@@ -12,6 +12,15 @@ body    {
 a:hover {
     color: lightgrey;
 }
+
+h3 {
+    font-family: 'Nunito';
+}
+
+h4 {
+    font-family: 'nunito';
+    color:black;
+}
 /*NAV*/
 .h1 {
     font-family: 'Great vibes';

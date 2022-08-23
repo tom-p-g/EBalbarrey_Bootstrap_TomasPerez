@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Eliana Balbarrey Fotógrafa</title>
+</head>
+
+<body class="container-fluid m-0 p-0 w-100">
+    <header class="container-fluid m-0 p-0">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../assets/img/logo-eli.png" alt="logo"
+                        width="50vw" height="auto"></a>
+                <a href="../index.html" class="h1 navbar-text mt-3 ms-2 me-3">Eliana Balbarrey</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="btn-group collapse navbar-collapse" id="navbarNavDropdown">
+                    <button type="button" class="btn dropdown-toggle botonNav" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Eventos
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./eventos.html">Casamientos</a></li>
+                        <li><a class="dropdown-item" href="./eventos.html">Fiestas de 15</a></li>
+                        <li>
+                    </ul>
+                </div>
+                <div class="btn-group collapse navbar-collapse" id="navbarNavDropdown">
+                    <button type="button" class="btn botonNav dropdown-toggle" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Familiares
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./familiares.html">Maternidad</a></li>
+                        <li><a class="dropdown-item" href="./familiares.html">New Born</a></li>
+                    </ul>
+                </div>
+                <div class="btn-group collapse navbar-collapse" id="navbarNavDropdown">
+                    <button type="button" class="btn botonNav dropdown-toggle" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Productos
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./productos.html">Gastronomia</a></li>
+                        <li><a class="dropdown-item" href="./productos.html">Miscelanea</a></li>
+                    </ul>
+                </div>
+                <div class="btn-group collapse navbar-collapse" id="navbarNavDropdown">
+                    <button type="button" class="btn botonNav">
+                        <a href="./contacto.html" class="link">Contacto</a>
+                    </button>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section">
+            <form action="" method="get" id="formulario">
+                <div class="container-fluid p-3 w-100 text-center">
+                    <div class="card text-dark bg-light mb-3">
+
+                        <div class="card-header">
+
+                            <h4>Datos Personales</h4>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="row justify-content-around p-2">
+                                <div class="col-md-auto">
+                                    <h4>Nombre y Apellido</h4>
+                                </div>
+                                <div class="col-sm-auto"><input type="text" name="nombre" placeholder="Nombre y Apellido">
+                                </div>
+                                <div class="col-md-auto">
+                                    <h4>E-mail</h4>
+                                </div>
+                                <div class="col-sm-auto"><input type="mail" name="mail" placeholder="ejemplo@ejemplo.com.ar">
+                                </div>
+                            </div>
+                            <div class="row p-3">
+                                <h4>Género:</h4>
+                            </div>
+                            <div class="row p-2">
+                                <div class="col-4">
+                                    <h4>Masculino</h4><input type="radio" value="Maculino" name="gender">
+                                </div>
+                                <div class="col-4">
+                                    <h4>Femenino</h4><input type="radio" value="Femenino" name="gender">
+                                </div>
+                                <div class="col-4">
+                                    <h4>Otro</h4><input type="radio" value="Otro" name="gender">
+                                </div>
+                            </div>
+                            <div class="row justify-content-center align-items-center p-2">
+                                <div class="col-md-auto">
+                                    <h4>Edad:</h4>
+                                </div>
+                                <div class="col-md-auto">
+                                    <input type="number" name="edad" min="13" max="100">
+                                </div>
+
+                                <div class="col-md-auto p-1">
+                                    <h4>Subscripciones:</h4>
+                                </div>
+                                <div class="col-md-auto">
+                                    <h4>Newsletter</h4><input type="checkbox" value="newsletter" name="subs">
+                                </div>
+                                <div class="col-md-auto">
+                                    <h4>Clases de Fotografía</h4><input type="checkbox" value="clasesfoto" name="subs">
+                                </div>
+
+                            </div>
+                            <div class="row p-2">
+                                <div class="col-3">
+                                    <h4>Color Favorito:</h4>
+                                </div>
+                                <div class="col-3"><input type="color" name="color"></div>
+
+                                <div class="col-3">
+                                    <h4>Nacionalidad:</h4>
+                                </div>
+                                <div class="col-3"><select name="Nacionalidad" size="1">
+                                        <option value="Argentino">Argentino</option>
+                                        <option value="Chileno">Chileno</option>
+                                        <option value="Narniano">Narniano</option>
+                                        <option value="Pakistani">Pakistani</option>
+                                        <option value="Marciano">Marciano</option>
+                                    </select></div>
+                            </div>
+                            <div class="row justify-content-around btn-group">
+                                <button class="col-md-auto btn btn-light"><input type="submit" value="Enviar Info"></button>
+                                <button class="col-md-auto btn btn-light"><input type="reset" value="Reiniciar Info"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            </section>
+    </main>
+    <footer>
+
+        <div class="row justify-content-around align-content-center p-1 w-100">
+            <div class="col-2">
+                <a href="https://www.instagram.com/elibalbarreyph/" class="container">
+                    <div class="row justify-content-center"><img id="imgFooter"
+                            src="../assets/img/instagram-logo-circle.png" alt="instagram"></div>
+                </a>
+            </div>
+            <div class="col-8">
+                <a href="../index.html" class="container">
+                    <div class="row justify-content-center"><img id="imgFooter" src="../assets/img/firma blanco.png"
+                            alt="firma">
+                    </div>
+                </a>
+            </div>
+            <div class="col-2">
+                <a class="container" href="https://www.facebook.com/fotografiaElianaBalbarrey/">
+                    <div class="row justify-content-center">
+                        <img id="imgFooter" src="../assets/img/facebook-icon-circle-logo-09F32F61FF-seeklogo.com.png"
+                            alt="facebook">
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
