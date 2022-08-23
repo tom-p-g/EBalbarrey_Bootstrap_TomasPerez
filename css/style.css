@@ -1,0 +1,102 @@
+/* FUENTES */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nunito:ital,wght@0,300;0,400;1,200&display=swap');
+
+/*GENERAL*/
+body    {
+    background-color: lightgrey;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+a:hover {
+    color: lightgrey;
+}
+/*NAV*/
+.h1 {
+    font-family: 'Great vibes';
+    color: white;
+    font-size: 300%;
+    text-decoration: none;
+    text-align: center;
+}
+header {
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #43652a;
+}
+.h1:hover {
+    color: #c98703;
+
+}
+.navbar-toggler {
+    border-color: white;
+}
+.botonNav {
+    color: white;
+    font-family: 'Nunito';
+    font-size: 1.4em;
+ }
+ .botonNav:hover {
+    color: white;
+    background-color: #c98703;
+}
+.link {
+    text-decoration: none;
+    color: white;
+}
+.dropdown-item {
+    font-family: 'nunito';
+    font-size: 1.2em;
+}
+
+
+
+/*MAIN*/
+
+#fotoPrincipal_movil {
+    display: none;
+
+}
+
+#mainindex_section {
+    height: 20vh;
+}
+#texture {
+    background-color: #671313;
+}
+.link2 {
+    color:white;
+    text-decoration: none;
+    font-family: 'nunito';
+    background-color: #c98703;
+}
+.link2:hover {
+    color: #00507a;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #43652a;
+    width: 100vw;
+    
+}
+#imgFooter {
+    height: 10vh;
+    width: auto;
+}
+
+
+
+
+
+/*QUERIES*/
+@media screen and (max-width:768px) {
+    #fotoPrincipal {
+        display: none;
+    }
+    #fotoPrincipal_movil {
+        display: block;
+    }
+}
